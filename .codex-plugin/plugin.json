@@ -1,0 +1,42 @@
+{
+  "name": "gpt-image",
+  "version": "0.1.0",
+  "description": "Use GPT Image for GPT Image generation and image editing through Ace Data Cloud. Install this independent Codex plugin, use your own API key, and retrieve the same task until it finishes.",
+  "author": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud",
+    "url": "https://github.com/AceDataCloud"
+  },
+  "homepage": "https://github.com/AceDataCloud/GPTImageCodex#readme",
+  "repository": "https://github.com/AceDataCloud/GPTImageCodex",
+  "license": "MIT",
+  "keywords": [
+    "gpt image",
+    "gpt-image",
+    "image",
+    "acedatacloud",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "GPT Image by Ace Data Cloud",
+    "shortDescription": "GPT Image tools with your Ace API key",
+    "longDescription": "Use GPT Image for GPT Image generation and image editing through Ace Data Cloud. Install this independent Codex plugin, use your own API key, and retrieve the same task until it finishes. This integration is provided by Ace Data Cloud and is not an official plugin from the service brand. Media API calls may incur charges.",
+    "developerName": "Ace Data Cloud",
+    "category": "Creativity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://platform.acedata.cloud/models?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=gptimagecodex_readme_website",
+    "defaultPrompt": [
+      "Show GPT Image model information without generating.",
+      "Use GPT Image to create a result after I confirm the cost.",
+      "Check my existing GPT Image task ID without regenerating."
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "service": "GPT Image",
+  "repo": "GPTImageCodex",
+  "slug": "gpt-image",
+  "mcp": "openai",
+  "purpose": "GPT Image generation and image editing",
+  "zh": "GPT Image 图片生成与编辑",
+  "query": "openai_get_task",
+  "info": "openai_list_image_models",
+  "tools": [
+    "openai_list_image_models",
+    "openai_generate_image",
+    "openai_edit_image",
+    "openai_get_task",
+    "openai_list_tasks"
+  ],
+  "api": "/openai/images/generations",
+  "task_api": "/openai/tasks",
+  "icon_repo": "GPTImageCursor",
+  "icon": "assets/logo.png"
+}
