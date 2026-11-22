@@ -29,7 +29,7 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://platform.acedata.cloud/models?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=gptimagecodex_readme_website",
+    "websiteURL": "https://platform.acedata.cloud/models?utm_source=codex&utm_medium=referral&utm_campaign=evergreen&utm_content=gptimagecodex_readme_website",
     "defaultPrompt": [
       "Show GPT Image model information without generating.",
       "Use GPT Image to create a result after I confirm the cost.",
